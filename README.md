@@ -9,3 +9,5 @@ Git e github
 - git checkout -b (cria uma nova branch)
 - git commit -m (salva os arquivos no repositorio local)
 - git push (enviar os dados repositorio local para o repositorio remoto)
+
+Autor - Gabriel Araujo
