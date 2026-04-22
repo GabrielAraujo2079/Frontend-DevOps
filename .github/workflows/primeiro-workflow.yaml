@@ -1,19 +1,17 @@
 name: primeiro-workflow # nome técnico
 run-name: Primeiro Workflow # nome livre
-#on: 
-#    - push 
+
 on: [push]
 
 jobs:
-    mac:
-        runs-on: macos-latest
-        steps: 
-            - name: Hello Mac!
-                run: echo "Supimpa!"
-    linux:
-        runs-on: ubuntu-latest
-        steps: 
-            - name: Hello Ubuntu!
-                run: echo "Supimpa2!"
+  mac:
+    runs-on: macos-latest
+    steps:
+      - name: Hello Mac!
+        run: echo "Supimpa!"
 
-
+  linux:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello Ubuntu!
+        run: echo "Supimpa2!"
